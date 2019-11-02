@@ -4,4 +4,4 @@ import { render } from 'react-dom';
 import App from './App';
 
 // Renderizar o React
-render (<App />, document.getElementBtId('app'));
+render (<App />, document.getElementById('app'));

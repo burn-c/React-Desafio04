@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #d30000;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 42px;
+    
+}
+
+header nav img {
+    align-self: left;
+}
+
+header div {
+    align-self: right
+}
+
+nav span {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
