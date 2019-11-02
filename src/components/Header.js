@@ -10,7 +10,7 @@ function Header() {
                 <img src={logoHeader} />
                 <div>
                     <span>Meu Perfil </span>
-                    <i className="material-icon">account_circle</i>
+                    <i className="material-icons">account_circle</i>
                 </div>
             </nav>
         </header>
