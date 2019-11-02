@@ -2,9 +2,10 @@
 
 
 body {
-    background: #ffffff;
+    background: #f0f0f0;
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 header {
@@ -29,7 +30,7 @@ nav div {
 }
 nav span {
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+
     color: #ffffff;
 }
 
@@ -38,3 +39,62 @@ i {
     margin-left: 5px;
 
 }
+
+div#postlist {
+    background-color: #fff;
+    color: black;
+    margin: 10px auto;
+    width: 970px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 0 5px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #707070
+}
+.postlist {
+    width: 700px;
+    margin: 0 auto 20px;
+}
+
+.post {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-top: 15px;   
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header .details {
+    color: #9a9a9a;
+    flex-direction: column;
+    display: flex;
+    font-size: 10px;
+    margin-left: 7px;
+}
+
+.post-header .details span:first-child {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+.avatar {
+    min-height: 32px;
+    min-width: 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 20%;
+  }
+
+  .post-content {
+      color: rgb(31, 30, 30);
+      font-size: 14px;
+      margin-top: 20px;
+  }
